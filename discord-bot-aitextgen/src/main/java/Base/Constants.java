@@ -4,8 +4,8 @@ import java.io.File;
 
 public class Constants {
 	//Constants that need to be changed:
-	public static final long CHANNEL_TO_TRAIN = 750591453297770556l;
-	public static final long GUILD_ID = 745857043356975104l;
+	public static final long CHANNEL_TO_TRAIN = UPDATE_THIS_TO_CHANNEL_ID;
+	public static final long GUILD_ID = UPDATE_THIS_TO_GUILD_ID;
 	
 	public static final File TOKEN_FILE = new File("TOKEN.txt");
 	
