@@ -8,6 +8,6 @@ public class TrainMessage {
 		message = m; user = u;
 	}
 	public void output(BufferedWriter BW) throws Exception {
-		BW.write(user + "#" + message + "\n");
+		BW.write(user + Constants.DIVIDER + message + "\n");
 	}
 }
