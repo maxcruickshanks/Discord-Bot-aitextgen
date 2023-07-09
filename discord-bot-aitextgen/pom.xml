@@ -3,7 +3,7 @@
   <groupId>bbb</groupId>
   <artifactId>discord-bot-aitextgen</artifactId>
   <version>1.0.0</version>
-  <name>Friend Generator</name>
+  <name>discord-bot-aitextgen</name>
   <repositories>
     <repository>
         <id>jcenter</id>
