@@ -1,7 +1,7 @@
 # Discord Bot (Using aitextgen)
 A Discord bot that can be trained on your server's messages to simulate conversations.
 
-Note that this LLM uses GPT-2 configurations, so it is limited in generating coherent messages.
+Note that this LLM uses GPT-2 configurations, so it is limited in generating coherent (non-hallucinations) messages.
 
 # Overview
 This Discord bot was created using Java and [JDA](https://github.com/discord-jda/JDA) with the text generation and training done through modified Python code from [aitextgen](https://github.com/minimaxir/aitextgen).
