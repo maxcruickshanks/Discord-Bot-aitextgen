@@ -6,7 +6,7 @@ Note that this LLM uses GPT-2 configurations, so it is limited in generating coh
 # Overview
 This Discord bot was created using Java and [JDA](https://github.com/discord-jda/JDA) with the text generation and training done through modified Python code from [aitextgen](https://github.com/minimaxir/aitextgen).
 
-Currently, it generates text whenever pinged or every `1/MESSAGE_FREQUENCY` messages:
+Currently, it generates text whenever pinged or every `MESSAGE_FREQUENCY` messages:
 ![Example of bot text generation](https://i.gyazo.com/0192c87199ec93f93ba2477af0ac205f.png)
 
 # Installation
