@@ -28,6 +28,8 @@ Fourth, compile the bot to a JAR file (within this repository, so it contains `/
 Fifth, create a text file called `TOKEN.txt` in the same folder as the JAR file (and this project) with the Discord token of your bot from [here](https://discord.com/developers/applications/).
 ![Discord token location](https://i.gyazo.com/356884038b0463e14cd99b8a0ed92189.png)
 
+(Optional) Tune `max_epochs` in `aitextgen.train` if you want it to be more accurate.
+
 Sixth, run the bot, train it, and enjoy your bot!
 
 (Optional) Finally, comment the `LLM.train_user(true)` line in `Main.java` and re-compile to prevent re-training when restarting the bot.
