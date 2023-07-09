@@ -72,10 +72,4 @@ class ATGTransformer(pl.LightningModule):
             eps=self.hparams["adam_epsilon"],
         )
 
-        scheduler = get_linear_schedule_with_warmup(
-            optimizer,
-            num_warmup_steps=self.hparams["warmup_steps"],
-            num_training_steps=self.hparams["num_steps"],
-        )
-
-        return [optimizer], [scheduler]
+        return optimizer

@@ -566,7 +566,6 @@ class aitextgen:
             adam_epsilon=adam_epsilon,
             warmup_steps=warmup_steps,
             batch_size=batch_size,
-            num_steps=num_steps,
             pin_memory=is_gpu_used,
             num_workers=num_workers,
             use_tpu=tpu_cores > 0,
@@ -597,7 +596,7 @@ class aitextgen:
 
         train_params = dict(
             accumulate_grad_batches=gradient_accumulation_steps,
-            max_epochs=-1,
+            max_epochs=1,
             gradient_clip_val=max_grad_norm,
             enable_checkpointing=False, #checkpoint_callback deprecated in pytorch_lighning v1.7
             logger=loggers if loggers else False,

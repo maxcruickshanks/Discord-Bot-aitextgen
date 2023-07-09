@@ -1,9 +1,9 @@
 from aitextgen import aitextgen
-from aitextgen.utils import build_gpt2_config
-from aitextgen.tokenizers import train_tokenizer
+from utils import build_gpt2_config
+from ai_tokenizers import train_tokenizer
 import torch
 
-file_name = "trained_contexts.txt"
+file_name = "aitextgen/messages.txt"
 train_tokenizer(file_name)
 
 config = build_gpt2_config(vocab_size=3000, max_length=128, dropout=0.0, n_embd=768, n_layer=16, n_head=16)
