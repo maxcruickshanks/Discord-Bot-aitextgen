@@ -15,7 +15,7 @@ For installation, it is recommended to use `WSL` or `Ubuntu`.
 If you are going to use Windows, you will need to modify the code for `LLM.generate_message` and `LLM.python_training`.
 
 ## WSL/Ubuntu
-First, clone the repository (or download it): `git repo clone maxcruickshanks/discord-bot-aitextgen`
+First, clone the repository (or download it): `git clone https://github.com/maxcruickshanks/discord-bot-aitextgen.git`
 
 Second, install the required pip packages: `pip install -r requirements.txt`
 
