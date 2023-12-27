@@ -17,7 +17,7 @@ setup(
     python_requires=">=3.6",
     include_package_data=True,
     install_requires=[
-        "transformers==4.30.2",
+        "transformers==4.36.0",
         "fire==0.5.0",
         "pytorch-lightning==2.0.4",
         "torch==2.0.1",
